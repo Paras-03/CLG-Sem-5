@@ -1,3 +1,12 @@
+echo "Assignment 1-b\n
+Write a program to implement an address book with options given below:\n 
+a) Create address book.\n
+b) View address book.\n
+c) Insert a record.\n
+d) Delete a record.\n
+e) Modify a record.\n
+f) Exit\n\n"
+
 opt=1
 read  -p "Enter File Name: "
 while [ "$opt" -lt 6 ]
